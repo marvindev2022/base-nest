@@ -38,7 +38,7 @@ NestJS 10 · TypeScript · Prisma 5 · PostgreSQL · Zod · Jest e Supertest
 ```bash
 npm install
 cp .env.example .env      # defina DATABASE_URL (PostgreSQL)
-npx prisma migrate dev    # cria as tabelas
+npx prisma db push        # cria as tabelas a partir de prisma/schema.prisma
 
 npm run start:dev         # API em modo watch
 npm test                  # testes unitários (repositório em memória)

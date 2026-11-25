@@ -2,7 +2,7 @@
 
 1. `User`:
 
-   - Esta parece ser uma classe que representa uma entidade de domínio chamada `User`, que provavelmente representa um fornecedor ou um suprimento em seu domínio de negócios. Esta classe possui propriedades como `name`, `logo`, `stateAbbreviation`, `costPerKwh`, `minKwhLimit`, `totalCustomers`, e `averageCustomerRating`, que são características relevantes para um fornecedor ou suprimento.
+   - Esta classe representa a entidade de domínio `User`, com as propriedades `name` e `logo` (mais `id`, `createdAt` e `updatedAt`). É a entidade de exemplo do template.
 
    - A classe `User` possui um método construtor que recebe um objeto contendo as propriedades da entidade `User`. Dentro deste método, parece haver lógica para validar os dados recebidos usando um esquema definido pelo Zod, um validador de esquema em tempo de execução para JavaScript e TypeScript.
 

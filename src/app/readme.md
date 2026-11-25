@@ -10,7 +10,7 @@
 
 3. `repositories`:
 
-   - `UserRepository`: Este é um contrato que define operações comuns para manipular entidades de fornecedores (suppliers). Ele representa a interface entre a camada de aplicativo e a camada de infraestrutura relacionada a operações de persistência de dados. Portanto, está na fronteira entre a camada de aplicativo e a camada de infraestrutura, como um "portão" ou "gateway" para acesso a dados.
+   - `UserRepository`: Este é um contrato que define operações comuns para manipular entidades de usuários. Ele representa a interface entre a camada de aplicativo e a camada de infraestrutura relacionada a operações de persistência de dados. Portanto, está na fronteira entre a camada de aplicativo e a camada de infraestrutura, como um "portão" ou "gateway" para acesso a dados.
 
 Em resumo, os elementos fornecidos na pasta `app` parecem estar bem alinhados com os conceitos da arquitetura limpa:
 
